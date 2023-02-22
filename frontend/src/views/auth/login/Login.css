@@ -206,6 +206,10 @@ hr {
     display: flex;
     margin: auto;
   }
+  .logo {
+    left: 50px;
+    top: 0px;
+  }
 
   .group {
     width: 70px;
@@ -229,8 +233,20 @@ hr {
   .rayas::before {
     width: 90px;
   }
-  .logo {
-    left: 50px;
-    top: 0px;
+ 
+}
+@media (max-width: 500px) {
+  .login-page {
+    max-width: 350px;
+    width: 300px;
+    margin: auto;
   }
+ 
+  img.agora {
+   width: 300px;
+  }
+  .logo {
+    margin: 0 10px;
+  }
+ 
 }
