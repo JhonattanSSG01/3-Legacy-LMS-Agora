@@ -24,6 +24,7 @@ function ForgotPassword() {
     const { name, value } = e.target;
     setData({ ...data, [name]: value, err: "", success: "" });
   };
+  
 
   const forgotPassword = async () => {
     if (!isEmail(email))

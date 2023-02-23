@@ -27,7 +27,6 @@ export function ResetPassword() {
   const userID = auth.user.id;
 
   const { password, cf_password, oldPassword, err, success } = data;
-
   const handleChangeInput = (e) => {
     const { name, value } = e.target;
     setData({ ...data, [name]: value, err: "", success: "" });
