@@ -15,16 +15,17 @@
   justify-content: space-evenly;
 }
 
-input {
+input.clave, input.correo, input {
   border: transparent;
   min-height: 40px;
   width: 100%;
-  padding: 10px;
+  padding: 0 30px;
   border-radius: 10px;
   margin: 10px 0;
   background-color: var(--colorWhite);
   box-shadow: 2px 1px 5px black;
 }
+
 
 .login-page .title{
   font-size: 30px;

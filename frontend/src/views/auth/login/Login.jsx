@@ -76,6 +76,7 @@ function Login() {
                 ingresa tu e-mail
               </h4>
               <input
+                className="correo"
                 placeholder="email@educamas.co"
                 name="email"
                 value={email}
